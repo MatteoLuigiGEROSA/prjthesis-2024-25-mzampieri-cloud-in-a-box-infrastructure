@@ -14,7 +14,7 @@ read -p "Premi INVIO per continuare..."
 # ============================================================================
 # Carica variabili di ambiente dallo script setEnv-CIB.sh
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-source "$SCRIPT_DIR/setEnv-CIB.sh"
+source "$SCRIPT_DIR/setEnv-CIB.cldmgr.sh"
 
 # ============================================================================
 # Controllo esistenza della directory di progetto

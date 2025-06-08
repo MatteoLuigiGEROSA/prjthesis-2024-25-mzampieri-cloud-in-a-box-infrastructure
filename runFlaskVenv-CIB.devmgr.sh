@@ -14,7 +14,7 @@ read -p "Premi INVIO per continuare..."
 # ============================================================================
 # Caricamento variabili ambiente
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-source "$SCRIPT_DIR/setEnv-CIB.sh"
+source "$SCRIPT_DIR/setEnv-CIB.devmgr.sh"
 # source "$SCRIPT_DIR/setenv-dev-DB.sh"  # <- attivabile in futuro se necessario
 
 # ============================================================================
